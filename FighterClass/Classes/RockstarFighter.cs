@@ -37,6 +37,7 @@ namespace FighterClass.Classes
             if (IsDizzy())
             {
                 Console.WriteLine("Rockastar Fighter will be recovery 1 week");
+                TakeDamage();
             }
         }
     }

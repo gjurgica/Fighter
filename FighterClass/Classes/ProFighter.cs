@@ -31,6 +31,7 @@ namespace FighterClass.Classes
             if (IsDizzy())
             {
                 Console.WriteLine("Pro Fighter will be recovery 2  weeks");
+                TakeDamage();
             }
         }
     }

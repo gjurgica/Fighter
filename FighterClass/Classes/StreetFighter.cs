@@ -28,6 +28,7 @@ namespace FighterClass.Classes
             if (IsDizzy())
             {
                 Console.WriteLine("Street Fighter will be recovery 3 weeks");
+                TakeDamage();
             }
             
         }
