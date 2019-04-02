@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\bin\Debug\Fighter.exe.config
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\bin\Debug\Fighter.exe
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\bin\Debug\Fighter.pdb
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\bin\Debug\FighterClass.dll
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\bin\Debug\FighterClass.pdb
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\obj\Debug\Fighter.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\obj\Debug\Fighter.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\obj\Debug\Fighter.csproj.CopyComplete
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\obj\Debug\Fighter.exe
+C:\Users\Asus\Desktop\c#\Fighter\Fighter\obj\Debug\Fighter.pdb

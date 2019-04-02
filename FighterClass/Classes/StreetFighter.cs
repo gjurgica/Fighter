@@ -18,13 +18,18 @@ namespace FighterClass.Classes
         public void DoStreet(Fighter opponent)
         {
             Console.WriteLine("Puang,bang,splash");
-            TakeDamage(PowerPunch);
+            TakeDamage((PowerPunch + Speed)*StreetCredit);
             
         }
-
+        
+    
         protected override void Finisher(Fighter opponent)
         {
-            Console.WriteLine("If you've got to fight, fight dirty");
+            if (IsDizzy())
+            {
+                Console.WriteLine("Street Fighter will be recovery 3 weeks");
+            }
+            
         }
     }
 }

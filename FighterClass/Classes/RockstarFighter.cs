@@ -17,24 +17,27 @@ namespace FighterClass.Classes
         public void DoBoxing(Fighter opponent)
         {
             Console.WriteLine("Poww");
-            TakeDamage(Reputation);
+            TakeDamage((PowerPunch + Speed)*Reputation);
         }
 
         public void DoMuayThai(Fighter opponent)
         {
             Console.WriteLine("Uauaaa");
-            TakeDamage();
+            TakeDamage((PowerPunch + Speed) * Reputation);
         }
 
         public void DoStreet(Fighter opponent)
         {
             Console.WriteLine("Splash,swashh");
-            TakeDamage(Speed);
+            TakeDamage((PowerPunch + Speed) * Reputation);
         }
 
         protected override void Finisher(Fighter opponent)
         {
-            Console.WriteLine("You are history");
+            if (IsDizzy())
+            {
+                Console.WriteLine("Rockastar Fighter will be recovery 1 week");
+            }
         }
     }
 }

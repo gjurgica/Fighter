@@ -17,18 +17,21 @@ namespace FighterClass.Classes
         public void DoBoxing(Fighter opponent)
         {
             Console.WriteLine("Bam,bam,smash");
-            TakeDamage(Experience);
+            TakeDamage((Speed + PowerPunch)*Experience);
         }
 
         public void DoStreet(Fighter opponent)
         {
             Console.WriteLine("Puf,paf,bong");
-            TakeDamage();
+            TakeDamage((Speed + PowerPunch) * Experience);
         }
 
         protected override void Finisher(Fighter opponent)
         {
-            Console.WriteLine("Victory will be mine");
+            if (IsDizzy())
+            {
+                Console.WriteLine("Pro Fighter will be recovery 2  weeks");
+            }
         }
     }
 }
